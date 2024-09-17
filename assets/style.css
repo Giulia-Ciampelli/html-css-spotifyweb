@@ -1,6 +1,23 @@
+/* #region common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --background-navy: #141922;
+    --background-bottom-bar: #282828;
+    --hover: #adff2f;
+    --font-colour: #7c7e83;
+    --scrollbar-grey-background: #5a5a5a;
+    --scrollbar-grey-main: #c1c1c1;
+    --sidebar-icon: #d2d2d2;
+    --new-playlist: #a3a3a3;
+}
+
+/* #endregion common */
+
+/* #region debug */
+
+/* #endregion debug */
