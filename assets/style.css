@@ -19,5 +19,62 @@
 /* #endregion common */
 
 /* #region debug */
+.debug * {
+    border: 1px dashed black;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: pink;
+}
+
+footer {
+    background-color: yellowgreen;
+}
 
 /* #endregion debug */
+
+/* #region header */
+header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* #endregion header */
+
+/* #region sidebar */
+nav {
+    height: 100%;
+    width: 245px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* #endregion sidebar */
+
+/* #region main */
+main {
+    width: calc(100% - 245px);
+    float: right;
+    overflow: scroll;
+    /* CONTROLLA: cambialo in hidden come finisci */
+}
+
+/* #endregion main */
+
+/* #region bottom bar */
+footer {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+/* #endregion bottom bar */
