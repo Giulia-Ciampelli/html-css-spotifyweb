@@ -25,6 +25,11 @@
 
 header {
     background-color: aquamarine;
+    opacity: 0.5;
+}
+
+main {
+    background-color: blueviolet;
 }
 
 nav {
@@ -62,6 +67,7 @@ nav {
 /* #region main */
 main {
     width: calc(100% - 245px);
+    padding-top: 80px;
     float: right;
     overflow: scroll;
     /* CONTROLLA: cambialo in hidden come finisci */
