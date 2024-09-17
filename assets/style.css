@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -84,3 +85,24 @@ footer {
     left: 0;
 }
 /* #endregion bottom bar */
+
+/* #region media queries */
+/* #region medium */
+@media screen and (max-width: 878px) {
+    
+}
+/* #endregion medium */
+
+/* #region small */
+@media screen and (max-width: 639px) {
+    
+}
+/* #endregion small */
+
+/* #region extra-small */
+@media screen and (max-width: 552px) {
+    
+}
+/* #endregion extra-small */
+
+/* #endregion media queries */
