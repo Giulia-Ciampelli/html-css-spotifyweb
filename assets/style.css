@@ -17,6 +17,14 @@
     --new-playlist: #a3a3a3;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 .hover-grow:hover {
     transform: scale(1.05);
 }
