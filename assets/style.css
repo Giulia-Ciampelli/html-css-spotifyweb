@@ -144,6 +144,17 @@ nav {
         a {
             color: var(--font-colour);
             font-weight: 700;
+            display: flex;
+
+            i {
+                color: var(--new-playlist);
+                font-size: 44px;
+                padding: 0 .75rem .5rem 0;
+            }
+
+            span {
+                padding-top: .5rem;
+            }
         }
     }
 }
