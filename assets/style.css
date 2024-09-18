@@ -17,12 +17,28 @@
     --new-playlist: #a3a3a3;
 }
 
+.hover-grow:hover {
+    transform: scale(1.05);
+}
+
+.hover-white {
+    color: white;
+}
+
+.hover-line-bottom {
+    border-bottom: 1px solid var(--hover);
+}
+
+.hover-line-left {
+    border-left: 1px solid var(--hover);
+}
+
 /* #endregion common */
 
 /* #region debug */
-.debug * {
+/* .debug * {
     border: 1px dashed black;
-}
+} */
 
 main {
     color: white;
@@ -39,6 +55,21 @@ header {
     left: 0;
     background-color: black;
     opacity: 0.75;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .button {
+        padding-right: .5rem;
+
+        button {
+            color: white;
+            background-color: black;
+            border: 1px solid white;
+            border-radius: 2rem;
+            padding: .5rem 1.5rem;
+        }
+    }
 }
 
 /* #endregion header */
@@ -77,25 +108,23 @@ footer {
     z-index: 2;
     background-color: var(--background-bottom-bar);
 }
+
 /* #endregion bottom bar */
 
 /* #region media queries */
 /* #region medium */
-@media screen and (max-width: 1024px) {
-    
-}
+@media screen and (max-width: 1024px) {}
+
 /* #endregion medium */
 
 /* #region small */
-@media screen and (max-width: 768px) {
-    
-}
+@media screen and (max-width: 768px) {}
+
 /* #endregion small */
 
 /* #region extra-small */
-@media screen and (max-width: 425px) {
-    
-}
+@media screen and (max-width: 425px) {}
+
 /* #endregion extra-small */
 
 /* #endregion media queries */
