@@ -21,15 +21,15 @@
     transform: scale(1.05);
 }
 
-.hover-white {
+.hover-white:hover {
     color: white;
 }
 
-.hover-line-bottom {
+.pageselect-line-bottom {
     border-bottom: 1px solid var(--hover);
 }
 
-.hover-line-left {
+.pageselect-line-left {
     border-left: 1px solid var(--hover);
 }
 
