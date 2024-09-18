@@ -113,18 +113,18 @@ nav {
         line-height: 2rem;
 
         .icon {
-            
+
             a {
                 display: flex;
                 align-items: center;
                 color: var(--font-colour);
                 font-weight: 700;
                 padding: .25rem 2rem;
-                
+
                 img {
                     width: 20%;
                 }
-                
+
                 span {
                     padding-left: .5rem;
                 }
@@ -206,13 +206,18 @@ nav {
                 border-radius: 50%;
                 aspect-ratio: 1;
             }
-            
+
             span {
                 padding-left: .5rem;
             }
         }
     }
-    /* #enregion account */
+
+    .account-xs {
+        display: none;
+    }
+
+    /* #endregion account */
 }
 
 /* #endregion sidebar */
@@ -278,7 +283,7 @@ footer {
 
             .icon {
                 width: max-content;
-                
+
                 a {
                     padding: .25rem 0;
                 }
@@ -286,7 +291,7 @@ footer {
                 .img-xs {
                     width: 42px;
                 }
-    
+
                 .d-n-xs {
                     display: none;
                 }
@@ -301,6 +306,40 @@ footer {
         }
 
         /* #endregion playlist */
+
+        /* #region account */
+
+        .d-n-xs {
+            display: none;
+        }
+
+        .account-xs {
+            display: block;
+            width: 80%;
+            padding: 0 1rem;
+            position: absolute;
+            bottom: 80px;
+
+            .top-xs {
+                width: 50%;
+                margin: auto;
+                padding-bottom: 1rem;
+            }
+            
+            .bottom-xs {
+                width: 70%;
+                margin: auto;
+                padding-bottom: 1rem;
+ 
+                img {
+                    aspect-ratio: 1;
+                    background-color: var(--font-colour);
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        /* #endregion account */
     }
 
     /* #endregion sidebar */
