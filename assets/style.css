@@ -119,6 +119,7 @@ nav {
                 align-items: center;
                 color: var(--font-colour);
                 font-weight: 700;
+                padding: .25rem;
                 
                 img {
                     width: 20%;
