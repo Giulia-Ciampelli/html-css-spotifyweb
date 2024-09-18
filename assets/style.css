@@ -103,7 +103,24 @@ nav {
     }
 
     .links {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        line-height: 2rem;
 
+        a {
+            color: var(--font-colour);
+            font-weight: 700;
+            display: flex;
+
+            img {
+                width: 15%;
+            }
+
+            span {
+                padding-left: .5rem;
+            }
+        }
     }
 
     .playlist {
