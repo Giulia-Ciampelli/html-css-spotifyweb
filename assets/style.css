@@ -221,6 +221,10 @@ footer {
             .icon {
                 width: max-content;
                 
+                a {
+                    padding: .25rem 0;
+                }
+
                 .img-xs {
                     width: 42px;
                 }
