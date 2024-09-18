@@ -93,7 +93,7 @@ nav {
     background-color: black;
 
     .logo {
-        padding: 1rem 2rem;
+        padding: 1rem 2rem 2rem;
         display: flex;
         justify-content: flex-start;
 
@@ -109,7 +109,6 @@ nav {
     .links {
         display: flex;
         flex-direction: column;
-        padding: 1rem 2rem;
         line-height: 2rem;
 
         .icon {
@@ -119,7 +118,7 @@ nav {
                 align-items: center;
                 color: var(--font-colour);
                 font-weight: 700;
-                padding: .25rem;
+                padding: .25rem 2rem;
                 
                 img {
                     width: 20%;
