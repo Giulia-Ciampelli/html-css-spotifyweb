@@ -112,24 +112,26 @@ nav {
         padding: 1rem 2rem;
         line-height: 2rem;
 
-        a {
-            color: var(--font-colour);
-            font-weight: 700;
-            display: flex;
+        .icon {
+            
+            a {
+                display: flex;
+                align-items: center;
+                color: var(--font-colour);
+                font-weight: 700;
+                
+                img {
+                    width: 20%;
+                }
 
-            img {
-                width: 15%;
-            }
-
-            span {
-                padding-left: .5rem;
+                span {
+                    padding-left: .5rem;
+                }
             }
         }
     }
 
-    .playlist {
-
-    }
+    .playlist {}
 }
 
 /* #endregion sidebar */
@@ -173,9 +175,10 @@ footer {
 @media screen and (max-width: 425px) {
 
     nav {
-        /* CONTROLLA: riduci la sezione nav senza far scomparire gli elementi dentro */
+        width: 20%;
 
         .logo {
+            padding: 1rem;
 
             .d-n-xs {
                 display: none;
@@ -183,16 +186,25 @@ footer {
 
             .d-xs {
                 display: block;
-                width: 20%;
+                width: 80%;
             }
         }
 
         .links {
+            padding: 1rem;
+
+            img {
+                width: 80%;
+            }
 
             .d-n-xs {
                 display: none;
             }
         }
+    }
+
+    main {
+        width: 80%;
     }
 }
 
