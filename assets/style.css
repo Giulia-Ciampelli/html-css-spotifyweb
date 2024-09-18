@@ -100,6 +100,10 @@ nav {
         img {
             width: 80%;
         }
+
+        .display-n {
+            display: none;
+        }
     }
 
     .links {
@@ -166,7 +170,31 @@ footer {
 /* #endregion small */
 
 /* #region extra-small */
-@media screen and (max-width: 425px) {}
+@media screen and (max-width: 425px) {
+
+    nav {
+        /* CONTROLLA: riduci la sezione nav senza far scomparire gli elementi dentro */
+
+        .logo {
+
+            .d-n-xs {
+                display: none;
+            }
+
+            .d-xs {
+                display: block;
+                width: 20%;
+            }
+        }
+
+        .links {
+
+            .d-n-xs {
+                display: none;
+            }
+        }
+    }
+}
 
 /* #endregion extra-small */
 
