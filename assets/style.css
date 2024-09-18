@@ -219,6 +219,10 @@ footer {
                 }
             }
         }
+
+        .d-n-xs {
+            display: none;
+        }
     }
 
     main {
