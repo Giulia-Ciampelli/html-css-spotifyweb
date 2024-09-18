@@ -193,12 +193,16 @@ footer {
         .links {
             padding: 1rem;
 
-            img {
-                width: 80%;
-            }
-
-            .d-n-xs {
-                display: none;
+            .icon {
+                width: max-content;
+                
+                .img-xs {
+                    width: 42px;
+                }
+    
+                .d-n-xs {
+                    display: none;
+                }
             }
         }
     }
