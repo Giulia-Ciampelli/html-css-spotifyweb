@@ -87,19 +87,19 @@ footer {
 
 /* #region media queries */
 /* #region medium */
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 1024px) {
     
 }
 /* #endregion medium */
 
 /* #region small */
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 768px) {
     
 }
 /* #endregion small */
 
 /* #region extra-small */
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 425px) {
     
 }
 /* #endregion extra-small */
