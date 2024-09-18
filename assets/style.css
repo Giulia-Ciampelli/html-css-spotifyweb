@@ -131,7 +131,21 @@ nav {
         }
     }
 
-    .playlist {}
+    .playlist {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        line-height: 2rem;
+
+        h4 {
+            color: white;
+        }
+
+        a {
+            color: var(--font-colour);
+            font-weight: 700;
+        }
+    }
 }
 
 /* #endregion sidebar */
