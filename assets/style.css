@@ -404,11 +404,11 @@ footer {
             align-items: center;
             gap: .5rem;
             padding: 1rem .5rem;
-            
+
             i {
                 color: var(--font-colour);
             }
-            
+
             .hover-white:hover {
                 color: white;
             }
@@ -427,7 +427,7 @@ footer {
         align-items: center;
 
         .play-icons {
-            
+
             i {
                 padding: 0 1rem;
                 color: white;
@@ -446,7 +446,7 @@ footer {
             font-size: smaller;
             align-items: center;
             width: 100%;
-            
+
             .volumebar {
                 height: 3px;
                 width: 100%;
@@ -460,13 +460,14 @@ footer {
             }
 
             .volumebar:hover {
-                
+
                 .vol {
                     background-color: var(--hover);
                 }
             }
         }
     }
+
     /* #endregion centro */
 
     /* #region destra */
@@ -485,27 +486,28 @@ footer {
 
         .volumebar-right {
             width: 100%;
-            
+
             .volumebar-sm {
                 width: 100%;
                 height: 3px;
                 background-color: var(--font-colour);
-    
+
                 .vol {
                     width: 20%;
                     height: 3px;
                     background-color: white;
                 }
             }
-    
+
             .volumebar-sm:hover {
-    
+
                 .vol {
                     background-color: var(--hover);
                 }
             }
         }
     }
+
     /* #endregion destra */
 }
 
@@ -531,11 +533,12 @@ footer {
         .right {
             padding: .5rem;
             gap: .75rem;
-    
+
             i {
                 font-size: smaller;
             }
         }
+
         /* #endregion destra */
     }
 }
@@ -569,25 +572,26 @@ footer {
     }
 
     footer {
-       
+
         /* #region centro */
         .center {
-    
+
             .play-icons {
-                
+
                 i {
                     padding: 0 1rem;
                     color: white;
                     font-size: medium;
                 }
-    
+
                 #big {
                     font-size: large;
                 }
             }
         }
+
         /* #endregion centro */
-    
+
         /* #region destra */
         .right {
             height: 80px;
@@ -597,11 +601,12 @@ footer {
             align-items: center;
             padding: .5rem;
             gap: .5rem;
-    
+
             i {
                 font-size: smaller;
             }
         }
+
         /* #endregion destra */
     }
 }
@@ -616,7 +621,7 @@ footer {
         width: 20%;
 
         .logo {
-            padding: 1rem;
+            padding: .5rem 1rem;
 
             .d-n-xs {
                 display: none;
@@ -624,23 +629,25 @@ footer {
 
             .d-xs {
                 display: block;
-                width: 80%;
+                width: 60%;
+                margin: auto;
             }
         }
 
         /* #region links */
         .links {
-            padding: 1rem;
+            padding: .5rem 1rem;
 
             .icon {
-                width: max-content;
+                width: 100%;
 
                 a {
                     padding: .25rem 0;
                 }
 
                 .img-xs {
-                    width: 42px;
+                    width: 60%;
+                    margin: auto;
                 }
 
                 .d-n-xs {
@@ -728,91 +735,90 @@ footer {
     /* #endregion main */
 
     footer {
+        justify-content: space-evenly;
+
+        /* #region sinistra */
+        .left {
+
+            .inside-left {
+                display: flex;
+                padding: 1rem .05rem;
+            }
+
+            .inside-center {
+                padding: .25rem;
+                align-self: center;
+            }
+
+            .inside-right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: .5rem;
+                padding: .25rem;
+
+                i {
+                    color: var(--font-colour);
+                    font-size: xx-small;
+                }
+
+                .hover-white:hover {
+                    color: white;
+                }
+            }
+        }
+
+        /* #endregion sinistra */
 
         /* #region centro */
         .center {
-            height: 80px;
-            width: 48%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-    
+
             .play-icons {
-                
+
                 i {
                     padding: 0 .25rem;
-                    color: white;
                     font-size: x-small;
                 }
-    
+
                 #big {
                     font-size: small;
                 }
             }
+        }
+
+        /* #endregion centro */
+
+        /* #region destra */
+        .right {
+            padding: .5rem 0;
+            gap: .25rem;
     
-            .volume {
-                display: flex;
-                gap: .5rem;
-                color: white;
-                font-size: smaller;
-                align-items: center;
+            i {
+                font-size: small;
+            }
+    
+            /* .volumebar-right {
                 width: 100%;
-                
-                .volumebar {
-                    height: 3px;
+    
+                .volumebar-sm {
                     width: 100%;
+                    height: 3px;
                     background-color: var(--font-colour);
     
                     .vol {
-                        height: 3px;
                         width: 20%;
+                        height: 3px;
                         background-color: white;
                     }
                 }
     
-                .volumebar:hover {
-                    
+                .volumebar-sm:hover {
+    
                     .vol {
                         background-color: var(--hover);
                     }
                 }
-            }
-        }
-        /* #endregion centro */
-    
-        /* #region destra */
-        .right {
-            height: 80px;
-            width: 15%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: .5rem;
-            gap: .25rem;
-    
-            i {
-                color: white;
-            }
-    
-            .volumebar-sm {
-                width: 100px;
-                height: 3px;
-                background-color: var(--font-colour);
-    
-                .vol {
-                    width: 20%;
-                    height: 3px;
-                    background-color: white;
-                }
-            }
-    
-            .volumebar-sm:hover {
-    
-                .vol {
-                    background-color: var(--hover);
-                }
-            }
+            } */
         }
         /* #endregion destra */
     }
