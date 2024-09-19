@@ -735,14 +735,21 @@ footer {
     /* #endregion main */
 
     footer {
-        justify-content: space-evenly;
 
         /* #region sinistra */
         .left {
+            width: 25%;
+            padding: 0 .25rem;
 
             .inside-left {
                 display: flex;
+                align-items: center;
+                width: 100%;
                 padding: 1rem .05rem;
+
+                img {
+                    height: 100%;
+                }
             }
 
             .inside-center {
@@ -772,7 +779,7 @@ footer {
 
         /* #region centro */
         .center {
-
+            width: 48%;
             .play-icons {
 
                 i {
@@ -790,35 +797,13 @@ footer {
 
         /* #region destra */
         .right {
-            padding: .5rem 0;
+            padding: 0 .25rem;
             gap: .25rem;
+            width: 25%;
     
             i {
-                font-size: small;
+                font-size: xx-small;
             }
-    
-            /* .volumebar-right {
-                width: 100%;
-    
-                .volumebar-sm {
-                    width: 100%;
-                    height: 3px;
-                    background-color: var(--font-colour);
-    
-                    .vol {
-                        width: 20%;
-                        height: 3px;
-                        background-color: white;
-                    }
-                }
-    
-                .volumebar-sm:hover {
-    
-                    .vol {
-                        background-color: var(--hover);
-                    }
-                }
-            } */
         }
         /* #endregion destra */
     }
