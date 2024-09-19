@@ -280,7 +280,7 @@ main {
             gap: 1rem;
 
             .circle {
-                
+
                 img {
                     border-radius: 50%;
                 }
@@ -360,6 +360,49 @@ footer {
     left: 0;
     z-index: 2;
     background-color: var(--background-bottom-bar);
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        width: 10%;
+        display: flex;
+        justify-content: space-between;
+
+        .inside-left {
+            display: flex;
+            padding: 1rem .5rem;
+        }
+
+        .inside-center {
+            padding: 1rem .5rem;
+            align-self: center;
+
+            p {
+                font-size: xx-small;
+            }
+
+            .title {
+                color: white;
+                font-weight: 900;
+            }
+
+            .name {
+                color: var(--font-colour);
+                font-weight: 700;
+            }
+        }
+
+        .inside-right {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            padding: 1rem .5rem;
+            
+            i {
+                color: white;
+            }
+        }
+    }
 }
 
 /* #endregion bottom bar */
@@ -374,6 +417,7 @@ footer {
         .page-select {
             gap: .75rem;
         }
+
         /* #endregion page select */
     }
 }
@@ -396,7 +440,7 @@ footer {
         .content {
 
             .row {
-                
+
                 .col-3 {
                     width: calc((100% / 12) * 3);
                 }
