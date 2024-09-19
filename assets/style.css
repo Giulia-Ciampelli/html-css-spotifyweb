@@ -57,6 +57,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 3;
 
     .button {
         padding-right: .5rem;
@@ -267,10 +268,23 @@ main {
             padding: 1rem 1rem 1rem 0;
         }
 
+        .suggestion {
+            color: var(--font-colour);
+            font-weight: 700;
+            padding-bottom: .5rem;
+        }
+
         .row {
             display: flex;
             flex-wrap: wrap;
             gap: 1rem;
+
+            .circle {
+                
+                img {
+                    border-radius: 50%;
+                }
+            }
 
             .col-2 {
                 width: calc((100% / 12) * 2);
