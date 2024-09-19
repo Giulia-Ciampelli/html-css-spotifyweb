@@ -458,6 +458,13 @@ footer {
                     background-color: white;
                 }
             }
+
+            .volumebar:hover {
+                
+                .vol {
+                    background-color: var(--hover);
+                }
+            }
         }
     }
     /* #endregion centro */
