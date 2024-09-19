@@ -363,8 +363,9 @@ footer {
     display: flex;
     justify-content: space-between;
 
+    /* #region sinistra */
     .left {
-        width: 10%;
+        height: 80px;
         display: flex;
         justify-content: space-between;
 
@@ -412,6 +413,39 @@ footer {
             }
         }
     }
+
+    /* #endregion sinistra */
+
+    /* #region centro */
+
+    /* #endregion centro */
+
+    /* #region destra */
+    .right {
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem;
+        gap: 1rem;
+
+        i {
+            color: white;
+        }
+
+        .volumebar-sm {
+            width: 100px;
+            height: 3px;
+            background-color: var(--font-colour);
+
+            .vol {
+                width: 20%;
+                height: 3px;
+                background-color: white;
+            }
+        }
+    }
+    /* #endregion destra */
 }
 
 /* #endregion bottom bar */
