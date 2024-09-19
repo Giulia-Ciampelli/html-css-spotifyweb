@@ -483,22 +483,26 @@ footer {
             color: white;
         }
 
-        .volumebar-sm {
-            width: 100px;
-            height: 3px;
-            background-color: var(--font-colour);
-
-            .vol {
-                width: 20%;
+        .volumebar-right {
+            width: 100%;
+            
+            .volumebar-sm {
+                width: 100%;
                 height: 3px;
-                background-color: white;
+                background-color: var(--font-colour);
+    
+                .vol {
+                    width: 20%;
+                    height: 3px;
+                    background-color: white;
+                }
             }
-        }
-
-        .volumebar-sm:hover {
-
-            .vol {
-                background-color: var(--hover);
+    
+            .volumebar-sm:hover {
+    
+                .vol {
+                    background-color: var(--hover);
+                }
             }
         }
     }
@@ -519,6 +523,20 @@ footer {
         }
 
         /* #endregion page select */
+    }
+
+    footer {
+
+        /* #region destra */
+        .right {
+            padding: .5rem;
+            gap: .75rem;
+    
+            i {
+                font-size: smaller;
+            }
+        }
+        /* #endregion destra */
     }
 }
 
@@ -548,6 +566,43 @@ footer {
         }
 
         /* #endregion recently played */
+    }
+
+    footer {
+       
+        /* #region centro */
+        .center {
+    
+            .play-icons {
+                
+                i {
+                    padding: 0 1rem;
+                    color: white;
+                    font-size: medium;
+                }
+    
+                #big {
+                    font-size: large;
+                }
+            }
+        }
+        /* #endregion centro */
+    
+        /* #region destra */
+        .right {
+            height: 80px;
+            width: 15%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: .5rem;
+            gap: .5rem;
+    
+            i {
+                font-size: smaller;
+            }
+        }
+        /* #endregion destra */
     }
 }
 
@@ -671,6 +726,96 @@ footer {
     }
 
     /* #endregion main */
+
+    footer {
+
+        /* #region centro */
+        .center {
+            height: 80px;
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            .play-icons {
+                
+                i {
+                    padding: 0 .25rem;
+                    color: white;
+                    font-size: x-small;
+                }
+    
+                #big {
+                    font-size: small;
+                }
+            }
+    
+            .volume {
+                display: flex;
+                gap: .5rem;
+                color: white;
+                font-size: smaller;
+                align-items: center;
+                width: 100%;
+                
+                .volumebar {
+                    height: 3px;
+                    width: 100%;
+                    background-color: var(--font-colour);
+    
+                    .vol {
+                        height: 3px;
+                        width: 20%;
+                        background-color: white;
+                    }
+                }
+    
+                .volumebar:hover {
+                    
+                    .vol {
+                        background-color: var(--hover);
+                    }
+                }
+            }
+        }
+        /* #endregion centro */
+    
+        /* #region destra */
+        .right {
+            height: 80px;
+            width: 15%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: .5rem;
+            gap: .25rem;
+    
+            i {
+                color: white;
+            }
+    
+            .volumebar-sm {
+                width: 100px;
+                height: 3px;
+                background-color: var(--font-colour);
+    
+                .vol {
+                    width: 20%;
+                    height: 3px;
+                    background-color: white;
+                }
+            }
+    
+            .volumebar-sm:hover {
+    
+                .vol {
+                    background-color: var(--hover);
+                }
+            }
+        }
+        /* #endregion destra */
+    }
 }
 
 /* #endregion extra-small */
