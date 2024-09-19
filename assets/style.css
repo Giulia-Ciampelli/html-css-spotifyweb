@@ -279,10 +279,29 @@ main {
 
                 .col-top {
                     aspect-ratio: 1;
+                    position: relative;
 
                     img {
                         width: 100%
                     }
+                }
+
+                /* .display-n {
+                    display: none;
+                } */
+
+                .col-top2 {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    transform: translateY(-50%);
+                    color: white;
+                    z-index: 1;
+                }
+
+                .col-top2:hover {
+                    display: block;
                 }
 
                 .col-bottom {
