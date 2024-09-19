@@ -417,7 +417,31 @@ footer {
     /* #endregion sinistra */
 
     /* #region centro */
+    .center {
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+        .play-icons {
+            
+            i {
+                padding: 0 1rem;
+                color: white;
+                font-size: larger;
+            }
+
+            #big {
+                font-size: xx-large;
+            }
+        }
+
+        .volume {
+            display: flex;
+            gap: .5rem;
+        }
+    }
     /* #endregion centro */
 
     /* #region destra */
