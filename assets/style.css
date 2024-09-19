@@ -286,22 +286,30 @@ main {
                     }
                 }
 
-                /* .display-n {
+                .display-n {
                     display: none;
-                } */
+                }
 
                 .col-top2 {
                     position: absolute;
-                    top: 50%;
+                    top: 40%;
                     left: 50%;
-                    transform: translateX(-50%);
-                    transform: translateY(-50%);
+                    transform: translate(-50%);
                     color: white;
                     z-index: 1;
+
+                    i {
+                        font-size: xx-large;
+                    }
                 }
 
-                .col-top2:hover {
-                    display: block;
+                .col-top:hover {
+                    /* CONTROLLA:trova un modo per rendere l'icona bianca */
+                    filter: brightness(.5);
+
+                    .col-top2 {
+                        display: block;
+                    }
                 }
 
                 .col-bottom {
