@@ -122,6 +122,10 @@ nav {
                 }
             }
         }
+
+        .icon:first-child {
+            border-left: 2px solid var(--hover);
+        }
     }
 
     /* #endregion links */
@@ -226,6 +230,27 @@ main {
     background-color: var(--background-navy);
 
     /* #region page select */
+    .page-select {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* CONTROLLA: cambia il gap nella versione responsive */
+        gap: 1rem 3rem;
+        padding-top: 1rem;
+
+        li {
+
+            a {
+                color: var(--font-colour);
+                font-weight: 500;
+            }
+        }
+
+        /* CONTROLLA */
+        li:first-child {
+            border-bottom: 2px solid var(--hover);
+        }
+    }
 
     /* #endregion page select */
 
@@ -315,6 +340,10 @@ footer {
                 .d-n-xs {
                     display: none;
                 }
+            }
+
+            .icon:first-child {
+                border: none;
             }
         }
 
