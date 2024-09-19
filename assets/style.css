@@ -216,6 +216,7 @@ nav {
 
 /* #region main */
 main {
+    /* CONTROLLA: serve la stessa altezza qui? */
     width: calc(100% - 245px);
     /* CONTROLLA: altezza modificata */
     height: 100vh;
