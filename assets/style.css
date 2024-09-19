@@ -261,7 +261,7 @@ main {
         margin: auto;
         /* CONTROLLA */
         padding-left: 1rem;
-        
+
         h2 {
             color: white;
             padding: 1rem 1rem 1rem 0;
@@ -353,12 +353,46 @@ footer {
 
 /* #region media queries */
 /* #region medium */
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+
+    main {
+
+        /* #region page select */
+        .page-select {
+            gap: .75rem;
+        }
+        /* #endregion page select */
+    }
+}
 
 /* #endregion medium */
 
 /* #region small */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+    main {
+
+        /* #region page select */
+        .page-select {
+            gap: 1rem;
+        }
+
+        /* #endregion page select */
+
+        /* #region recently played */
+        .content {
+
+            .row {
+                
+                .col-3 {
+                    width: calc((100% / 12) * 3);
+                }
+            }
+        }
+
+        /* #endregion recently played */
+    }
+}
 
 /* #endregion small */
 
@@ -434,12 +468,12 @@ footer {
                 margin: auto;
                 padding-bottom: 1rem;
             }
-            
+
             .bottom-xs {
                 width: 70%;
                 margin: auto;
                 padding-bottom: 1rem;
- 
+
                 img {
                     aspect-ratio: 1;
                     background-color: var(--font-colour);
@@ -456,6 +490,27 @@ footer {
     /* #region main */
     main {
         width: 80%;
+
+        /* #region page select */
+        .page-select {
+            gap: .25rem;
+        }
+
+        /* #endregion page select */
+        .content {
+
+            .row {
+
+                .col-6 {
+                    /* se metto la width a 50% va a capo, anche togliendo i padding di sopra */
+                    width: 44%;
+                }
+            }
+        }
+
+        /* #region recently played */
+
+        /* #endregion recently played */
     }
 
     /* #endregion main */
