@@ -33,14 +33,6 @@ li {
     color: white;
 }
 
-.pageselect-line-bottom {
-    border-bottom: 1px solid var(--hover);
-}
-
-.pageselect-line-left {
-    border-left: 1px solid var(--hover);
-}
-
 /* #endregion common */
 
 /* #endregion debug */
@@ -221,9 +213,7 @@ nav {
 
 /* #region main */
 main {
-    /* CONTROLLA: serve la stessa altezza qui? */
     width: calc(100% - 245px);
-    /* CONTROLLA: altezza modificata */
     height: 100vh;
     padding: 80px 0;
     float: right;
@@ -235,7 +225,6 @@ main {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        /* CONTROLLA: cambia il gap nella versione responsive */
         gap: 1rem 3rem;
         padding-top: .5rem;
 
@@ -248,10 +237,18 @@ main {
             }
         }
 
-        /* CONTROLLA: misura del border, ofrse un hr è meglio in questo caso */
         li:first-child {
-            border-bottom: 2px solid var(--hover);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            hr {
+                margin-top: .5rem;
+                border: 1px solid var(--hover);
+                width: 40%;
+            }
         }
+
     }
 
     /* #endregion page select */
@@ -260,7 +257,6 @@ main {
     .content {
         width: 100%;
         margin: auto;
-        /* CONTROLLA */
         padding-left: 1rem;
 
         h2 {
