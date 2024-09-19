@@ -267,7 +267,7 @@ main {
             padding: 1rem 1rem 1rem 0;
         }
 
-        #row1 {
+        .row {
             display: flex;
             flex-wrap: wrap;
             gap: 1rem;
@@ -333,12 +333,6 @@ main {
         }
     }
 
-    /* #endregion recently played */
-
-    /* #region creato per utente */
-    
-
-    /* #endregion creato per utente */
 }
 
 /* #endregion main */
@@ -387,7 +381,7 @@ footer {
         /* #region recently played */
         .content {
 
-            #row1 {
+            .row {
                 
                 .col-3 {
                     width: calc((100% / 12) * 3);
@@ -504,7 +498,7 @@ footer {
         /* #endregion page select */
         .content {
 
-            #row1 {
+            .row {
 
                 .col-6 {
                     /* se metto la width a 50% va a capo, anche togliendo i padding di sopra */
