@@ -80,6 +80,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
+    /* z-index messi per eccesso di sicurezza, in teoria funzionavano anche senza */
     z-index: 1;
     background-color: black;
 
