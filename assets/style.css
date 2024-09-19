@@ -444,6 +444,13 @@ footer {
                 background-color: white;
             }
         }
+
+        .volumebar-sm:hover {
+
+            .vol {
+                background-color: var(--hover);
+            }
+        }
     }
     /* #endregion destra */
 }
