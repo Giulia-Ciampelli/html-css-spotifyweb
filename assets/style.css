@@ -354,30 +354,8 @@ main {
             .circle {
 
                 .col-top2 {
-                    position: absolute;
-                    color: white;
-                    z-index: 1;
-                    background-color: rgba(0, 0, 0, 0.5);
-                    width: 100%;
-                    height: 100%;
                     border-radius: 50%;
-
-                    i {
-                        font-size: xx-large;
-                        position: absolute;
-                        top: 40%;
-                        left: 50%;
-                        transform: translate(-50%);
-                    }
                 }
-
-                .col-top:hover {
-
-                    .col-top2 {
-                        display: block;
-                    }
-                }
-
             }
         }
     }
