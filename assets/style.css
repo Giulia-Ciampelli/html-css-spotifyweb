@@ -453,6 +453,10 @@ footer {
             }
         }
 
+        .display-n {
+            display: none;
+        }
+
         .volume {
             display: flex;
             gap: .5rem;
@@ -461,22 +465,37 @@ footer {
             align-items: center;
             width: 100%;
 
-            .volumebar {
+            .timebar {
                 height: 3px;
                 width: 100%;
                 background-color: var(--font-colour);
+                position: relative;
 
-                .vol {
+                .time {
                     height: 3px;
                     width: 20%;
                     background-color: white;
                 }
+
+                .time-thumb {
+                    background-color: white;
+                    height: 10px;
+                    aspect-ratio: 1;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: -100%;
+                    left: 20%;
+                }
             }
 
-            .volumebar:hover {
+            .timebar:hover {
 
-                .vol {
+                .time {
                     background-color: var(--hover);
+                }
+
+                .time-thumb {
+                    display: block;
                 }
             }
         }
